@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E3CFA095-3883-4A14-8305-C6D0B0277EF6}" SchemaVersion="133">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{E3CFA095-3883-4A14-8305-C6D0B0277EF6}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_AMB_Desert_SandStorm" ID="{C456270F-C9C7-476A-83BA-31996A8C9E0D}">
+					<PropertyList>
+						<Property Name="InstanceLimit" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{A0B3CEE4-A62D-4B7E-889E-84E04260F0B6}" ShortID="378031849">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Desert_SandStorm" ID="{162AD638-BF01-41AC-87AE-B6BCD355C5DB}" WorkUnitID="{74409C51-C626-4D05-A378-19D6D9A1EC2D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_AMB_Desert_SandStorm" ID="{5F9AA1BE-F04F-4BB3-A390-FD03FCA88953}">
+					<ChildrenList>
+						<Action Name="" ID="{AF4C8BF1-4AEB-4487-8099-CD958D6AC569}" ShortID="836301124">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AMB_Desert_SandStorm" ID="{162AD638-BF01-41AC-87AE-B6BCD355C5DB}" WorkUnitID="{74409C51-C626-4D05-A378-19D6D9A1EC2D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

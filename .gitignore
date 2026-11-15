@@ -1,0 +1,29 @@
+# Wwise caches, backups and local authoring state
+.cache*
+.backup*
+*.akd
+*.prof
+*.validationcache
+*.wsettings
+AkWwiseProjectData.asset
+IncrementalSoundBankData.xml
+
+# Generated audio and SoundBanks; keep Originals/ and source WAV files
+GeneratedSoundBanks/
+
+# Editor state and temporary files
+.vs/
+.vscode/
+.idea/
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Operating system metadata
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini

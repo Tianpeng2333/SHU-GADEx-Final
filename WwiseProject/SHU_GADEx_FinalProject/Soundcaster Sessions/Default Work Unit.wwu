@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<WwiseDocument Type="WorkUnit" ID="{DA2EB533-67C1-4826-86C2-696147A65A59}" SchemaVersion="133">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{DA2EB533-67C1-4826-86C2-696147A65A59}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="AMB_Desert_SandStorm" ID="{56CA4B9F-131C-4614-B540-09AF9808F115}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_AMB_Desert_SandStorm" ID="{C456270F-C9C7-476A-83BA-31996A8C9E0D}" WorkUnitID="{E3CFA095-3883-4A14-8305-C6D0B0277EF6}" />
+							<Position X="0" Y="0" />
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_AMB_Desert_SandStorm" ID="{5F9AA1BE-F04F-4BB3-A390-FD03FCA88953}" WorkUnitID="{E3CFA095-3883-4A14-8305-C6D0B0277EF6}" />
+							<Position X="1" Y="0" />
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="false" />
+					<CurrentStateList ShowAll="false" />
+					<CurrentSwitchList ShowAll="false" />
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

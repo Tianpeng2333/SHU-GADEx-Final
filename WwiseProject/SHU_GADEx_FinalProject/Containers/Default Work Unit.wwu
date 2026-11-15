@@ -1,0 +1,1595 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{74409C51-C626-4D05-A378-19D6D9A1EC2D}" SchemaVersion="133">
+	<Containers>
+		<WorkUnit Name="Default Work Unit" ID="{74409C51-C626-4D05-A378-19D6D9A1EC2D}" PersistMode="Standalone">
+			<ChildrenList>
+				<BlendContainer Name="AMB_Desert_SandStorm" ID="{162AD638-BF01-41AC-87AE-B6BCD355C5DB}" ShortID="694307719">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{275644C6-0F80-4FDD-96E3-478BA2219A52}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE30C791-3201-4061-AFBB-437E91178131}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="AMB_Desert_2D_Sand_Slide_Random" ID="{D5F1D4AF-74F0-4D51-93D1-FAB92A727867}" ShortID="1067558236">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="2"/>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>8.5</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{0FC876BD-91E1-4AFB-9A34-AAD4CA6DFFA2}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="OverrideEffect" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="5.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{5D92DC28-6EBC-4430-A609-57BC05BE5D70}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2.5"/>
+													<Property Name="Min" Type="Real64" Value="-2.5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_SandStorm_Sand" ID="{A8EEA708-6A87-4FD0-B8FC-04D7B8639D91}" WorkUnitID="{F2BBDCF9-3FA0-4C3A-9938-2BCF4F989BFD}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{275644C6-0F80-4FDD-96E3-478BA2219A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE30C791-3201-4061-AFBB-437E91178131}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="AMB_Desert_2D_Sand_Slide_1" ID="{4159631A-BD39-4BD8-A161-A9BA91BBDD95}" ShortID="1030235170">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{AFF6ED3A-46CA-4BFE-96AA-5B37CA57EC81}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{F5DFF376-1E93-4117-829F-6BD9A8AB57C3}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{275644C6-0F80-4FDD-96E3-478BA2219A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE30C791-3201-4061-AFBB-437E91178131}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Desert_2D_Sand_Slide_1" ID="{31163E23-E568-4D6A-9F34-2465DCDEA93E}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Desert_2D_Sand_Slide_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="86228849"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Desert_2D_Sand_Slide_1" ID="{31163E23-E568-4D6A-9F34-2465DCDEA93E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Desert_2D_Sand_Slide_2" ID="{E7416A04-A9DB-4A4C-AADF-32AFD1479B4E}" ShortID="325109630">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C102CC87-5116-46F8-B07C-209079109C83}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{25F797A4-4705-4B75-BCD7-C3A4821A2576}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{275644C6-0F80-4FDD-96E3-478BA2219A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE30C791-3201-4061-AFBB-437E91178131}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Desert_2D_Sand_Slide_2" ID="{240B08EA-881B-4CDF-9061-E8E1212F432B}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Desert_2D_Sand_Slide_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="993355464"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Desert_2D_Sand_Slide_2" ID="{240B08EA-881B-4CDF-9061-E8E1212F432B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Desert_2D_Sand_Slide_3" ID="{1DCC1519-6942-473C-80B9-D48200596EE0}" ShortID="981259900">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A09B6ED4-E35D-4221-8936-FF88CFB588E9}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{77317EF3-8910-4A30-ABA0-9D0D50CBC1A4}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{275644C6-0F80-4FDD-96E3-478BA2219A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE30C791-3201-4061-AFBB-437E91178131}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Desert_2D_Sand_Slide_3" ID="{3D756694-7B5A-4E15-A700-6B012F804121}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Desert_2D_Sand_Slide_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="323412841"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Desert_2D_Sand_Slide_3" ID="{3D756694-7B5A-4E15-A700-6B012F804121}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="AMB_Desert_2D_Sand_Slide_4" ID="{18653FBD-8815-49D7-ADE4-A5D8151FEDF6}" ShortID="914001992">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A9E95DB3-6DAB-4F7B-9890-81A7CDB9D1D8}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8D4FC0FF-D4E0-4DFB-95C5-24C507E7A622}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{275644C6-0F80-4FDD-96E3-478BA2219A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE30C791-3201-4061-AFBB-437E91178131}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="AMB_Desert_2D_Sand_Slide_4" ID="{4B37E66B-D312-4E45-A1E9-171F3318618E}">
+											<Language>SFX</Language>
+											<AudioFile>AMB_Desert_2D_Sand_Slide_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="787857308"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="AMB_Desert_2D_Sand_Slide_4" ID="{4B37E66B-D312-4E45-A1E9-171F3318618E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{E6D512B8-197B-47AC-8C7B-F4E9E2178B1C}">
+									<PropertyList>
+										<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="sand_Area_1" ID="{AFB5AD7E-C39C-4AE5-84C6-9C131F015318}">
+											<PropertyList>
+												<Property Name="RandomX" Type="Real64" Value="26.6666666666667"/>
+												<Property Name="RandomY" Type="Real64" Value="26.6666666666667"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>0</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+							<ObjectLists>
+								<ObjectList Name="Effects">
+									<EffectSlot Name="" ID="{000B450E-B414-4781-854F-97E1A3EA7F38}" ShortID="56100116">
+										<ReferenceList>
+											<Reference Name="Effect">
+												<Custom>
+													<Effect Name="Parametric EQ (Custom)" ID="{EFA38D87-BDDF-4D92-8DCF-F2D3022D8BD5}" ShortID="1032632745" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+														<PropertyList>
+															<Property Name="FilterTypeBand3" Type="int32" Value="0"/>
+															<Property Name="FrequencyBand3" Type="Real32" Value="6021.089"/>
+															<Property Name="GainBand3" Type="Real32" Value="-4.934132"/>
+															<Property Name="OnOffBand3" Type="bool" Value="True"/>
+														</PropertyList>
+													</Effect>
+												</Custom>
+											</Reference>
+										</ReferenceList>
+									</EffectSlot>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="FOL_Metal_Rattle_Random" ID="{B3600752-897B-441C-A75E-30FEFE1FA13A}" ShortID="101758328">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="2"/>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>4.5</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{F543EEC5-8FCA-4556-AB29-5AF085562FBA}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1.5"/>
+													<Property Name="Min" Type="Real64" Value="-1.5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="10">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{652A0A31-839E-4F7F-BA91-5E8E8D717E37}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="4"/>
+													<Property Name="Min" Type="Real64" Value="-4"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_SandStorm_Metal_Debris" ID="{09D9DCDF-5CB8-43C8-82BA-C242E3D74B80}" WorkUnitID="{F2BBDCF9-3FA0-4C3A-9938-2BCF4F989BFD}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{275644C6-0F80-4FDD-96E3-478BA2219A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE30C791-3201-4061-AFBB-437E91178131}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="FOL_Metal_Rattle_1" ID="{7AA09FFE-BADE-414E-BADF-815A417C2E8D}" ShortID="199536383">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{0E00B5C6-6649-466F-946C-E39C50A6491A}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{BC97A01C-77F2-4BFE-BA53-C026FA123AB1}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{275644C6-0F80-4FDD-96E3-478BA2219A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE30C791-3201-4061-AFBB-437E91178131}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Metal_Rattle_1" ID="{DFDA0CC5-39EE-4F7B-B266-EB717A42BC0C}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Metal_Rattle_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="34389248"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Metal_Rattle_1" ID="{DFDA0CC5-39EE-4F7B-B266-EB717A42BC0C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Metal_Rattle_2" ID="{3449364B-8920-43FC-89DA-FD7B9623ED64}" ShortID="490034895">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{ADF48FEE-26CC-4B27-8F2B-99BD921E7E78}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{46FEA811-62E4-41FD-BCB5-7A3A3DE44DA3}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{275644C6-0F80-4FDD-96E3-478BA2219A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE30C791-3201-4061-AFBB-437E91178131}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Metal_Rattle_2" ID="{B9AA5253-7661-4105-835A-2677F568DA8B}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Metal_Rattle_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="406609834"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Metal_Rattle_2" ID="{B9AA5253-7661-4105-835A-2677F568DA8B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Metal_Rattle_3" ID="{5D9CCA10-AB60-4584-9125-B6AD439C6906}" ShortID="642492852">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{157910D7-08A6-4025-9F4F-05348CEDED68}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{0FB1AA8A-DDEA-4B3B-9903-3E02FB3DF5B0}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{275644C6-0F80-4FDD-96E3-478BA2219A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE30C791-3201-4061-AFBB-437E91178131}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Metal_Rattle_3" ID="{5FCDD359-9064-406D-B2C8-2AD54E23598C}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Metal_Rattle_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="152117044"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Metal_Rattle_3" ID="{5FCDD359-9064-406D-B2C8-2AD54E23598C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_Metal_Rattle_4" ID="{DABC5E76-34DE-4573-AB67-EEB4E0818F63}" ShortID="970803822">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{7E554225-0B59-40AC-AC87-E349F73CB073}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{93083BEA-C046-44AD-9044-3C7149BF3C8A}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{275644C6-0F80-4FDD-96E3-478BA2219A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE30C791-3201-4061-AFBB-437E91178131}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_Metal_Rattle_4" ID="{F1E765D5-23F3-40CA-B9F7-E66FAE2A61BA}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_Metal_Rattle_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="587243462"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_Metal_Rattle_4" ID="{F1E765D5-23F3-40CA-B9F7-E66FAE2A61BA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{E17063D0-5BC4-4F23-900D-968507752D39}">
+									<PropertyList>
+										<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="metal_Area_1" ID="{F0B41380-4CC8-4683-84E2-C4E993F4E106}">
+											<PropertyList>
+												<Property Name="RandomX" Type="Real64" Value="40"/>
+												<Property Name="RandomY" Type="Real64" Value="40"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>0</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+						</RandomSequenceContainer>
+						<Sound Name="AMB_Desert_2D_Bed" ID="{36417250-BD3F-4979-988F-35F3C6E07026}" ShortID="303357240">
+							<PropertyList>
+								<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{275644C6-0F80-4FDD-96E3-478BA2219A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE30C791-3201-4061-AFBB-437E91178131}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AMB_Desert_2D_Bed" ID="{4141EB9A-25D2-4ABA-AB98-8DFD04CFDC24}">
+									<Language>SFX</Language>
+									<AudioFile>AMB_Desert_2D_Bed.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="444695497"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="AMB_Desert_2D_Bed" ID="{4141EB9A-25D2-4ABA-AB98-8DFD04CFDC24}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="FOL_ToolBag_Drop_Random" ID="{2E7C5F0F-F4FC-4F17-A98A-640CB1C037AF}" ShortID="799708137">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="2"/>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{FDB1BB42-5245-4A60-B43F-21245CADD0FF}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="2"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="13">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B0776BD0-0526-4E85-9849-0F5C33B11495}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="5"/>
+													<Property Name="Min" Type="Real64" Value="-5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ATT_SandStorm_Metal_Debris" ID="{09D9DCDF-5CB8-43C8-82BA-C242E3D74B80}" WorkUnitID="{F2BBDCF9-3FA0-4C3A-9938-2BCF4F989BFD}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{275644C6-0F80-4FDD-96E3-478BA2219A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE30C791-3201-4061-AFBB-437E91178131}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="FOL_ToolBag_Drop_1" ID="{6A079ECD-B4B4-48B9-9A4C-8C3FF0EB4049}" ShortID="151225150">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9E051470-B80F-42E0-B5E0-02D40F973AD1}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{3095864A-2AA3-453A-928F-0EF98F664508}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{275644C6-0F80-4FDD-96E3-478BA2219A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE30C791-3201-4061-AFBB-437E91178131}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_ToolBag_Drop_1" ID="{03013523-0727-4CD1-8155-D9767AF53047}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_ToolBag_Drop_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="422061856"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_ToolBag_Drop_1" ID="{03013523-0727-4CD1-8155-D9767AF53047}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_ToolBag_Drop_2" ID="{08EF9C73-BCA6-4142-97B3-CDC95C3ABAE5}" ShortID="890378324">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{7F42E0D6-62A0-4C8B-9CA7-1A8825AFDE7C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5840B2FE-E5B1-4A52-97B0-C47DFBFD913F}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{275644C6-0F80-4FDD-96E3-478BA2219A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE30C791-3201-4061-AFBB-437E91178131}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_ToolBag_Drop_2" ID="{2D2F493F-34DF-407F-AFB1-E9E3192EC607}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_ToolBag_Drop_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="502152693"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_ToolBag_Drop_2" ID="{2D2F493F-34DF-407F-AFB1-E9E3192EC607}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_ToolBag_Drop_3" ID="{C5709E8F-074A-4D27-9124-8414B714DF83}" ShortID="678628932">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8B80E4B5-C15D-4120-983E-40C6085508F0}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{75DF130C-FB9E-4F37-BCE5-E440D326B8C3}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{275644C6-0F80-4FDD-96E3-478BA2219A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE30C791-3201-4061-AFBB-437E91178131}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_ToolBag_Drop_3" ID="{30D7B783-D906-487D-9B53-7DB4D8DBA2DE}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_ToolBag_Drop_3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="787924543"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_ToolBag_Drop_3" ID="{30D7B783-D906-487D-9B53-7DB4D8DBA2DE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FOL_ToolBag_Drop_4" ID="{9CF13422-AC70-442B-92E3-16E1267011DF}" ShortID="345887697">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9247626D-0828-47D3-AE8B-600A9D1DB0C0}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-50"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{C3B4961C-E63E-4802-828C-34E337D4583C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="2"/>
+															<Property Name="Min" Type="Real64" Value="-2"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{275644C6-0F80-4FDD-96E3-478BA2219A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE30C791-3201-4061-AFBB-437E91178131}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FOL_ToolBag_Drop_4" ID="{8BD70B09-14C1-446A-B45A-CBEFCEC9BDFE}">
+											<Language>SFX</Language>
+											<AudioFile>FOL_ToolBag_Drop_4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="809738769"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="FOL_ToolBag_Drop_4" ID="{8BD70B09-14C1-446A-B45A-CBEFCEC9BDFE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{99133116-344C-4F98-A073-E9E62EB84EF3}">
+									<PropertyList>
+										<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="drop_Area_1" ID="{BCF4E91C-7B11-4776-980E-6AAC922DCD8D}">
+											<PropertyList>
+												<Property Name="RandomX" Type="Real64" Value="53.3333333333333"/>
+												<Property Name="RandomY" Type="Real64" Value="53.3333333333333"/>
+											</PropertyList>
+											<PointList>
+												<Point>
+													<XPos>0</XPos>
+													<YPos>0</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="AMB_Desert_Thunder_Loop" ID="{950B0205-18BC-4740-A21F-82CE26B64112}" ShortID="880020045">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{5443EB14-B467-4238-A4CA-09C8A09955BE}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="5"/>
+													<Property Name="Min" Type="Real64" Value="-5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="NormalOrShuffle" Type="int16" Value="0"/>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="35">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{0A41C5FB-8AAA-4C41-8391-E73C19DBF50B}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+													<Property Name="Min" Type="Real64" Value="-10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{275644C6-0F80-4FDD-96E3-478BA2219A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE30C791-3201-4061-AFBB-437E91178131}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<BlendContainer Name="AMB_Desert_Thunder_Event" ID="{D0A41D92-CFA4-4F1C-9AD4-43185A907F4E}" ShortID="1054685554">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{275644C6-0F80-4FDD-96E3-478BA2219A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE30C791-3201-4061-AFBB-437E91178131}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="AMB_Desert_2D_Thunder_Rumble_Random" ID="{04A11C8B-4200-4BAD-9AE9-7C75E95520DF}" ShortID="704477806">
+											<PropertyList>
+												<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+												<Property Name="OverridePositioning" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{275644C6-0F80-4FDD-96E3-478BA2219A52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE30C791-3201-4061-AFBB-437E91178131}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="AMB_Desert_2D_Thunder_Rumble_3" ID="{1B0B9FAE-EF77-46DA-B2F8-D48FE571451C}" ShortID="168918479">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{9201BE93-CDA2-4AA4-8558-4186E3FC5CB4}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="2"/>
+																			<Property Name="Min" Type="Real64" Value="-2"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{275644C6-0F80-4FDD-96E3-478BA2219A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE30C791-3201-4061-AFBB-437E91178131}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AMB_Desert_2D_Thunder_Rumble_3" ID="{0284FD8F-CB60-4458-8A8D-6B1384DC3833}">
+															<Language>SFX</Language>
+															<AudioFile>AMB_Desert_2D_Thunder_Rumble_3.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="543562450"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="AMB_Desert_2D_Thunder_Rumble_3" ID="{0284FD8F-CB60-4458-8A8D-6B1384DC3833}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="AMB_Desert_2D_Thunder_Rumble_2" ID="{23A5216D-518D-418D-9890-0801D080ADA4}" ShortID="998343601">
+													<PropertyList>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="Volume" Type="Real64">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{DF031EEF-0B5B-426D-A14C-3F137588C03C}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="2"/>
+																			<Property Name="Min" Type="Real64" Value="-2"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{275644C6-0F80-4FDD-96E3-478BA2219A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE30C791-3201-4061-AFBB-437E91178131}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AMB_Desert_2D_Thunder_Rumble_2" ID="{E15D993E-9EFC-4AFC-A420-B92A84172768}">
+															<Language>SFX</Language>
+															<AudioFile>AMB_Desert_2D_Thunder_Rumble_2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="274448873"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="AMB_Desert_2D_Thunder_Rumble_2" ID="{E15D993E-9EFC-4AFC-A420-B92A84172768}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="AMB_Desert_2D_Thunder_Rumble_1" ID="{AB55D91A-4AD6-449B-8EE2-1D12C3FA60AA}" ShortID="153995490">
+													<PropertyList>
+														<Property Name="EnableAttenuation" Type="bool" Value="False"/>
+														<Property Name="Volume" Type="Real64">
+															<ModifierList>
+																<ModifierInfo>
+																	<Modifier Name="" ID="{766ACFC2-D49D-4845-8B95-2CCF51873106}">
+																		<PropertyList>
+																			<Property Name="Enabled" Type="bool" Value="True"/>
+																			<Property Name="Max" Type="Real64" Value="2"/>
+																			<Property Name="Min" Type="Real64" Value="-2"/>
+																		</PropertyList>
+																	</Modifier>
+																</ModifierInfo>
+															</ModifierList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{275644C6-0F80-4FDD-96E3-478BA2219A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE30C791-3201-4061-AFBB-437E91178131}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="AMB_Desert_2D_Thunder_Rumble_1" ID="{65AF673D-7BC4-42B8-8D33-27C55D24F58F}">
+															<Language>SFX</Language>
+															<AudioFile>AMB_Desert_2D_Thunder_Rumble_1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="235123169"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="AMB_Desert_2D_Thunder_Rumble_1" ID="{65AF673D-7BC4-42B8-8D33-27C55D24F58F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="AMB_Desert_Thunder_Clap_Optional_Random" ID="{EFB29A13-5A19-486C-B299-CB487762AC23}" ShortID="656491300">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ValueList>
+														<Value>2.5</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{5C06A68B-0D27-4160-8CF2-BDF3B20DA781}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="1.5"/>
+																	<Property Name="Min" Type="Real64" Value="-1.5"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{275644C6-0F80-4FDD-96E3-478BA2219A52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE30C791-3201-4061-AFBB-437E91178131}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="AMB_Desert_2D_Thunder_Clap_Random" ID="{C2472FC2-899C-4021-8E96-ECF652BFAC38}" ShortID="939546703">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>2</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="ATT_SandStorm_Thunder" ID="{3EA43C97-1F1C-4C7D-8513-9F0DEDB0CD62}" WorkUnitID="{F2BBDCF9-3FA0-4C3A-9938-2BCF4F989BFD}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{275644C6-0F80-4FDD-96E3-478BA2219A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE30C791-3201-4061-AFBB-437E91178131}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="AMB_Desert_2D_Thunder_Clap_1" ID="{81C2D1B6-140B-4218-89E5-5698992A4A1E}" ShortID="403610881">
+															<PropertyList>
+																<Property Name="3DPosition" Type="int16" Value="2"/>
+																<Property Name="3DSpatialization" Type="int16" Value="1"/>
+																<Property Name="Volume" Type="Real64">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{691FBCA1-5C8B-460A-AB35-559536AB0CF4}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="2"/>
+																					<Property Name="Min" Type="Real64" Value="-2"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Attenuation">
+																	<ObjectRef Name="ATT_SandStorm_Thunder" ID="{3EA43C97-1F1C-4C7D-8513-9F0DEDB0CD62}" WorkUnitID="{F2BBDCF9-3FA0-4C3A-9938-2BCF4F989BFD}"/>
+																</Reference>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{275644C6-0F80-4FDD-96E3-478BA2219A52}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE30C791-3201-4061-AFBB-437E91178131}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AMB_Desert_2D_Thunder_Clap_1" ID="{3BF41F11-DB75-4C93-B3E8-2E7BD061097C}">
+																	<Language>SFX</Language>
+																	<AudioFile>AMB_Desert_2D_Thunder_Clap_1.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="819904725"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<PositioningInfo>
+																<Position Name="" ID="{FBB49271-01A6-4106-B59C-DFE13C61380A}">
+																	<PropertyList>
+																		<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+																		<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ChildrenList>
+																		<Path2D Name="clap_Area_1" ID="{8314AFE6-36D8-4D12-A48D-9F36D389DA02}">
+																			<PropertyList>
+																				<Property Name="RandomX" Type="Real64" Value="20"/>
+																				<Property Name="RandomY" Type="Real64" Value="16.6666666666667"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>30</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																		<Path2D Name="clap_Area_2" ID="{F98494AA-C5FD-4871-A6BA-30B682A25CEE}">
+																			<PropertyList>
+																				<Property Name="RandomX" Type="Real64" Value="20"/>
+																				<Property Name="RandomY" Type="Real64" Value="16.6666666666667"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>-30</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																		<Path2D Name="clap_Area_3" ID="{CBA10D4C-6A21-4FF8-94C9-CE0E9931F0A8}">
+																			<PropertyList>
+																				<Property Name="RandomX" Type="Real64" Value="16.6666666666667"/>
+																				<Property Name="RandomY" Type="Real64" Value="20"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>-30</XPos>
+																					<YPos>0</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																		<Path2D Name="clap_Area_4" ID="{402C024E-0BD1-43F1-A1A5-C6FD555688D0}">
+																			<PropertyList>
+																				<Property Name="RandomX" Type="Real64" Value="16.6666666666667"/>
+																				<Property Name="RandomY" Type="Real64" Value="20"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>30</XPos>
+																					<YPos>0</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																	</ChildrenList>
+																</Position>
+															</PositioningInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="AMB_Desert_2D_Thunder_Clap_1" ID="{3BF41F11-DB75-4C93-B3E8-2E7BD061097C}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="AMB_Desert_2D_Thunder_Clap_2" ID="{573455AD-62C7-4C86-91DD-CF9E78E89065}" ShortID="463973719">
+															<PropertyList>
+																<Property Name="3DPosition" Type="int16" Value="2"/>
+																<Property Name="3DSpatialization" Type="int16" Value="1"/>
+																<Property Name="Volume" Type="Real64">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{93C9DCBF-6719-4DB3-83D1-107183BB51EC}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="2"/>
+																					<Property Name="Min" Type="Real64" Value="-2"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Attenuation">
+																	<ObjectRef Name="ATT_SandStorm_Thunder" ID="{3EA43C97-1F1C-4C7D-8513-9F0DEDB0CD62}" WorkUnitID="{F2BBDCF9-3FA0-4C3A-9938-2BCF4F989BFD}"/>
+																</Reference>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{275644C6-0F80-4FDD-96E3-478BA2219A52}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE30C791-3201-4061-AFBB-437E91178131}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AMB_Desert_2D_Thunder_Clap_2" ID="{6B83B9AE-2331-423E-8DF9-8769BC3F12E1}">
+																	<Language>SFX</Language>
+																	<AudioFile>AMB_Desert_2D_Thunder_Clap_2.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="294338069"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<PositioningInfo>
+																<Position Name="" ID="{51FCD5C8-A034-4735-B8F7-9041003F5F3F}">
+																	<PropertyList>
+																		<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+																		<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ChildrenList>
+																		<Path2D Name="clap_Area_1" ID="{CB31E0C4-6BEF-46F0-AB73-EB4FB96F5C18}">
+																			<PropertyList>
+																				<Property Name="RandomX" Type="Real64" Value="20"/>
+																				<Property Name="RandomY" Type="Real64" Value="16.6666666666667"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>30</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																		<Path2D Name="clap_Area_2" ID="{255A6615-7004-425F-BE9B-BF3F75DBD8F4}">
+																			<PropertyList>
+																				<Property Name="RandomX" Type="Real64" Value="20"/>
+																				<Property Name="RandomY" Type="Real64" Value="16.6666666666667"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>-30</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																		<Path2D Name="clap_Area_3" ID="{2908FE64-2F75-4B1D-8A0B-23CEF2124591}">
+																			<PropertyList>
+																				<Property Name="RandomX" Type="Real64" Value="16.6666666666667"/>
+																				<Property Name="RandomY" Type="Real64" Value="20"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>-30</XPos>
+																					<YPos>0</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																		<Path2D Name="clap_Area_4" ID="{691EE9BC-8C4E-459B-9C31-9B7665F43A97}">
+																			<PropertyList>
+																				<Property Name="RandomX" Type="Real64" Value="16.6666666666667"/>
+																				<Property Name="RandomY" Type="Real64" Value="20"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>30</XPos>
+																					<YPos>0</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																	</ChildrenList>
+																</Position>
+															</PositioningInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="AMB_Desert_2D_Thunder_Clap_2" ID="{6B83B9AE-2331-423E-8DF9-8769BC3F12E1}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="AMB_Desert_2D_Thunder_Clap_3" ID="{ED98FA4B-15E4-4E60-AA12-62CF956BD0E8}" ShortID="197036504">
+															<PropertyList>
+																<Property Name="3DPosition" Type="int16" Value="2"/>
+																<Property Name="3DSpatialization" Type="int16" Value="1"/>
+																<Property Name="Volume" Type="Real64">
+																	<ModifierList>
+																		<ModifierInfo>
+																			<Modifier Name="" ID="{871692C1-49D3-49CE-899A-8749F9CD0DF5}">
+																				<PropertyList>
+																					<Property Name="Enabled" Type="bool" Value="True"/>
+																					<Property Name="Max" Type="Real64" Value="2"/>
+																					<Property Name="Min" Type="Real64" Value="-2"/>
+																				</PropertyList>
+																			</Modifier>
+																		</ModifierInfo>
+																	</ModifierList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Attenuation">
+																	<ObjectRef Name="ATT_SandStorm_Thunder" ID="{3EA43C97-1F1C-4C7D-8513-9F0DEDB0CD62}" WorkUnitID="{F2BBDCF9-3FA0-4C3A-9938-2BCF4F989BFD}"/>
+																</Reference>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{275644C6-0F80-4FDD-96E3-478BA2219A52}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE30C791-3201-4061-AFBB-437E91178131}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="AMB_Desert_2D_Thunder_Clap_3" ID="{674B9363-ACF8-4775-8842-6519C389A093}">
+																	<Language>SFX</Language>
+																	<AudioFile>AMB_Desert_2D_Thunder_Clap_3.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="745766874"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<PositioningInfo>
+																<Position Name="" ID="{B12AAD4D-97CE-4748-93BA-B4EDA0BFFA1A}">
+																	<PropertyList>
+																		<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+																		<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+																	</PropertyList>
+																	<ChildrenList>
+																		<Path2D Name="clap_Area_1" ID="{6CFB54F1-7F5D-490F-B1A3-D471C9F30908}">
+																			<PropertyList>
+																				<Property Name="RandomX" Type="Real64" Value="20"/>
+																				<Property Name="RandomY" Type="Real64" Value="16.6666666666667"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>30</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																		<Path2D Name="clap_Area_2" ID="{C6B42CA9-DC9C-4113-AC66-51587626AB97}">
+																			<PropertyList>
+																				<Property Name="RandomX" Type="Real64" Value="20"/>
+																				<Property Name="RandomY" Type="Real64" Value="16.6666666666667"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>-30</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																		<Path2D Name="clap_Area_3" ID="{3EA0F333-3528-4E98-9564-545794E5F837}">
+																			<PropertyList>
+																				<Property Name="RandomX" Type="Real64" Value="16.6666666666667"/>
+																				<Property Name="RandomY" Type="Real64" Value="20"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>-30</XPos>
+																					<YPos>0</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																		<Path2D Name="clap_Area_4" ID="{4A52C258-DC19-4B08-9E73-5CB41A03CDF1}">
+																			<PropertyList>
+																				<Property Name="RandomX" Type="Real64" Value="16.6666666666667"/>
+																				<Property Name="RandomY" Type="Real64" Value="20"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>30</XPos>
+																					<YPos>0</YPos>
+																					<Flags>12</Flags>
+																					<Time>0</Time>
+																				</Point>
+																			</PointList>
+																		</Path2D>
+																	</ChildrenList>
+																</Position>
+															</PositioningInfo>
+															<ActiveSourceList>
+																<ActiveSource Name="AMB_Desert_2D_Thunder_Clap_3" ID="{674B9363-ACF8-4775-8842-6519C389A093}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<PositioningInfo>
+														<Position Name="" ID="{387CD65B-EE41-4476-A294-F7B095FF25D7}">
+															<PropertyList>
+																<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+															</PropertyList>
+															<ChildrenList>
+																<Path2D Name="clap_Area_1" ID="{2AB5ADDE-B9C1-45AB-8412-C0DE06CF4D75}">
+																	<PropertyList>
+																		<Property Name="RandomX" Type="Real64" Value="20"/>
+																		<Property Name="RandomY" Type="Real64" Value="16.6666666666667"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>30</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="clap_Area_2" ID="{A2CF877D-E486-4D25-A92A-4B335124A8B7}">
+																	<PropertyList>
+																		<Property Name="RandomX" Type="Real64" Value="20"/>
+																		<Property Name="RandomY" Type="Real64" Value="16.6666666666667"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>-30</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="clap_Area_3" ID="{6A5D8B64-D481-4149-91BB-F198ADCDA554}">
+																	<PropertyList>
+																		<Property Name="RandomX" Type="Real64" Value="16.6666666666667"/>
+																		<Property Name="RandomY" Type="Real64" Value="20"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>-30</XPos>
+																			<YPos>0</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+																<Path2D Name="clap_Area_4" ID="{647C3427-92E9-4D09-BCCB-292481409D27}">
+																	<PropertyList>
+																		<Property Name="RandomX" Type="Real64" Value="16.6666666666667"/>
+																		<Property Name="RandomY" Type="Real64" Value="20"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>30</XPos>
+																			<YPos>0</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+															</ChildrenList>
+														</Position>
+													</PositioningInfo>
+												</RandomSequenceContainer>
+												<Sound Name="Silence_Thunder_Clap" ID="{440002D0-9E93-4093-96E8-0927828CACBD}" ShortID="954754452">
+													<PropertyList>
+														<Property Name="Weight" Type="Real64">
+															<ValueList>
+																<Value>3</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{275644C6-0F80-4FDD-96E3-478BA2219A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Main Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{AE30C791-3201-4061-AFBB-437E91178131}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<SourcePlugin Name="Silence" ID="{5EE83110-0747-46AB-80E1-F5C0EB30E28F}" ShortID="119795785" PluginName="Wwise Silence" CompanyID="0" PluginID="101">
+															<PropertyList>
+																<Property Name="Length" Type="Real32" Value="0.1"/>
+															</PropertyList>
+															<Language>SFX</Language>
+														</SourcePlugin>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Silence" ID="{5EE83110-0747-46AB-80E1-F5C0EB30E28F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</BlendContainer>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<PluginInnerObject Name="" ID="{3EFFAB0B-D69B-4BE3-AB5B-972101B60B7D}" PluginName="PlaylistSlot" CompanyID="0" PluginID="86">
+										<ReferenceList>
+											<Reference Name="PlaylistObject">
+												<ObjectRef Name="AMB_Desert_Thunder_Event" ID="{D0A41D92-CFA4-4F1C-9AD4-43185A907F4E}" WorkUnitID="{74409C51-C626-4D05-A378-19D6D9A1EC2D}"/>
+											</Reference>
+										</ReferenceList>
+									</PluginInnerObject>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</BlendContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</Containers>
+</WwiseDocument>
